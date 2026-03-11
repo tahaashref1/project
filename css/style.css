@@ -67,20 +67,23 @@ button{
 .c{
     background-color: #EFEEE8;
     width: 270px;
-    height: 350px;
+    height: 370px;
     cursor: pointer;
+}
+.c > img{
+    padding: 25px 0 0 0 ;
 }
 .over{
     padding-top: 10px;
     transition: all 0.5s linear;
-    bottom: 0;
+    bottom: 120px;
     height: 0px;
     width: 100%;
     color: white;
     background-color: black;
     opacity: 0;
 }
-.c:hover .over{
+.k:hover .over{
     opacity:1 ;
     height: 50px;
 }
